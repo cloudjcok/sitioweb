@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <style>
+     button{    
+      font-size: 1rem;
+      border: none;
+      outline: none;
+      padding: 10px 12px;
+      border-radius: 5px;
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      transition: all 0.2s ;
+     }
+     button:hover{
+     padding: 5px 10px;
+     background-color: #ffffff;
+     color: #ff0000;
+     border-radius: 20px;
+     }
+    </style>
+    
+  <audio id="miAudio" autoplay loop>
+    <source src="audio/AUDIO-2023-12-16-22-28-24.mp3" type="audio/mpeg">
+    tu navegador no es compatible
+  </audio>
+  
+    <header>
+      <nav class="nav">
+        <div class="logo">APRENDER ES DIVERTIDO</div>
+        <ul class="menu">
+          <button id="botonAudio" onclick="controlarAudio()"><i class="fa-solid fa-volume-xmark"></i></button>
+          <li><a href="#">Niveles</a></li>
+                <li><a href="#">Objetivos</a></li>
+                <li><a href="#">Contactos</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+          </nav> 
+          <div class="card-container">
+            <div class="card" style="--i:url(5288851_32851.jpg)">
+              <div class="content">
+                <h2>Animales</h2>
+                <a href="animales.html">Ver Mundo!</a>
+              </div>
+            </div>
+            
+            <div class="card" style="--i:url(2921570_418.jpg)">
+              <div class="content">
+                <h2>Abecedario</h2>
+                <a href="#">Ver Mundo!</a>
+              </div>
+            </div>
+            
+            <div class="card" style="--i:url(img3.jpg)">
+              <div class="content">
+                <h2>Aprende Ingles</h2>
+                <a href="#">Ver Mundo</a>
+              </div>
+            </div> 
+           </div> 
+
+           <div class="card" style="--i:url(coolor.jpg)">
+            <div class="content">
+              <h2>Los Colores</h2>
+              <a href="#">Ver Mundo</a>
+            </div>
+           </div> 
+           </div> 
+
+           <div class="card" style="--i:url(img3.jpg)">
+           <div class="content">
+            <h2>Memorizar</h2>
+            <a href="#">Ver Detalles</a>
+           </div>
+           </div> 
+         </div> 
+
+         <div class="card" style="--i:url(img3.jpg)">
+          <div class="content">
+           <h2>Paisaje</h2>
+           <a href="#">Ver Detalles</a>
+          </div>
+          </div> 
+        </div> 
+
+        <div class="card" style="--i:url(img3.jpg)">
+          <div class="content">
+           <h2>Paisaje</h2>
+           <a href="#">Ver Detalles</a>
+          </div>
+          </div> 
+        </div> 
+
+        <div class="card" style="--i:url(img3.jpg)">
+          <div class="content">
+           <h2>Matematicas</h2>
+           <a href="#">JUGAR!</a>
+          </div>
+          </div> 
+        </div> 
+          </header>
+
+
+          <script>
+            let audio = document.getElementById("miAudio");
+            let boton = document.getElementById("botonAudio");
+            function controlarAudio() {
+              if (audio.paused) {
+                audio.play();
+              } else {
+                audio.pause();     
+              }
+            }
+          </script>
+          
+          
+</body>
+</html>

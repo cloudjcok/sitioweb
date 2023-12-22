@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, helvetica;
+    margin-right: 35px;
+    padding: 10px;
+    background-image:url(introduccion\ presentacion.jpg)    
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+
+.pagprinc{
+    font-family: Arial, helvetica;
+   
+    padding: 0;
+    background: #092327;
+    width: 8%;
+    max-width: 1000px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+   
+
+}
+.pagprinc a:hover{
+    background: #ef8354;
+    
+    
+}
+.pagprinc a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.5 ease;
+}
+
+div.caja{
+    text-align: center;    
+}
+
+div.opcs1{
+    text-align: center;
+}
+
+img{
+    border-radius: 40px;
+
+}
+#resp {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: 20 auto;
+      color:white;
+      background-color: rgba(243, 132, 5, 0.952);
+      border-radius: 20px;
+      padding: 0px;
+      box-shadow: 0 8px 16px rgba(12, 2, 2, 0.5);
+}
+.niño-1 {
+    position: absolute;
+    top: 165px;
+    left: 140px;
+    width: 285px;
+}
